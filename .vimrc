@@ -35,23 +35,6 @@ highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
 
 " Macros to frequently used pieces of text.
-ab huasm 
-                        \@ Universidade Estadual de Campinas
-                        \<CR>@ Instituto de Computacao
-                        \<CR>@ 
-                        \<CR>@ Autor: Joao Henrique Dalben
-                        \<CR>@ RA: 122314
-                        \<CR>@
-                        \<CR>@ Disciplina:
-                        \<CR>@ Turma:
-                        \<CR>@ Professor:
-                        \<CR>@ 
-                        \<CR>@ Descricao: 
-                        \<CR>@
-                        \<CR>@ Data de criacao:
-                        \<CR>@ Ultima alteracao em:
-                        \<CR>@
-
 ab cskel 
                         \#include <stdio.h>
                         \<CR>
