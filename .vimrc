@@ -15,10 +15,10 @@ highlight Comment term=bold,reverse cterm=bold ctermfg=red
 
 set vb t_vb=
 
-" TAB width = 4 spaces
+" TAB width = 2 spaces
 set tabstop=2
 
-" Indents width = 4 spaces
+" Indents width = 2 spaces
 set shiftwidth=2
 
 " Number of columns for a TAB = 4
@@ -26,6 +26,8 @@ set softtabstop=2
 
 " Expand TABs to spaces
 set expandtab
+
+set smarttab autoindent
 
 " Draw a line at column 81
 set colorcolumn=81
