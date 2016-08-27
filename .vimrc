@@ -1,8 +1,6 @@
 filetype plugin indent on
 syntax enable
 
-
-
 execute pathogen#infect()
 
 set nobackup
